@@ -20,8 +20,7 @@ export default function VanDetail() {
           <i className={`van-type ${van.type} selected`}>{van.type}</i>
           <h2>{van.name}</h2>
           <p className="van-price">
-            ${van.price}
-            <span>/day</span>
+            <span>${van.price}</span>/day
           </p>
           <p>{van.description}</p>
           <button className="rental-btn">Rent this van</button>

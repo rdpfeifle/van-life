@@ -10,7 +10,6 @@ export default function Vans() {
       .then((data) => setVans(data.vans));
   }, []);
 
-  // id, name, price, description, imageUrl, type properties
   const vansElements = vans.map((van) => (
     <div key={van.id} className="van-tile">
       <Link to={`/vans/${van.id}`} className="van-link">
