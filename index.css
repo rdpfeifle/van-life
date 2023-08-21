@@ -223,3 +223,48 @@ nav a:hover {
 i[class*="van-type-"] {
   padding: 7px 14px;
 }
+
+/* VAN PAGE DETAILS */
+
+.van-detail-container {
+  padding: 30px;
+}
+
+.van-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.van-detail img {
+  border-radius: 5px;
+  margin-block: 50px;
+}
+
+.van-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.van-detail > i {
+  align-self: flex-start;
+}
+
+.van-price {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.van-price span {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.rental-btn {
+  background-color: #ff8c38;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.125rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
